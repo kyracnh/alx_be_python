@@ -1,6 +1,6 @@
-pr = 1000
-ra = 0.05
-ti = 3
+principal = 1000
+rate = 0.05
+time = 3
 
 total = pr * ra * ti
 
