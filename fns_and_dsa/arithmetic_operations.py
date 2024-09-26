@@ -1,15 +1,14 @@
 def perform_operation(num1, num2, operation):
-    match operation:
-        case "add":
+    if operation == "add":
             return num1 + num2
-        case "subtract":
+    elif operation == "subtract":
             return num1 - num2
-        case "multiply":
+    elif operation == "multiply":
             return num1 * num2
-        case "divide":
+    elif operation == "divide":
             if num2 != 0:
                 return num1 / num2
             else:
                 print("Sorry, you can not divide by Zero")
-        case _:
-            print("Retry!")
+    else:
+        print("Retry!")
